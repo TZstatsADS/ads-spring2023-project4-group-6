@@ -4,15 +4,16 @@
 
 Term: Spring 2023
 
-+ Team #
-+ Projec title: Lorem ipsum dolor sit amet
++ Team 6
++ Projec title: Machine Learning Fairness
 + Team members
-	+ team member 1
-	+ team member 2
-	+ team member 3
-	+ team member 4
-	+ team member 5
-+ Project summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	+ Tianxiao He
+	+ Linda Lin
+	+ Xinming Pan
+	+ Namira Suniaprita
+	+ Han Wang
+	+ Yixun Xu
++ Project summary: In this project, we investigated fairness in machine learning algorithm using [Compas dataset](https://github.com/propublica/compas-analysis/). The dataset contains criminal history for defendants from Broward County and we aim to predict 2 year recividism of each defendent without introducing bias on sensitive attributes such as race. Specifically, two research papers were examined [Fairness Constraints: Mechanisms for Fair Classification](https://arxiv.org/pdf/1507.05259.pdf) (A2) and [Information Theoretic Measures for Fairness-aware Feature Selection](https://arxiv.org/pdf/2106.00772.pdf) (A7). The data was cleaned and preprocessed to handle categorical values. For paper A2, we implemented baseline and fairness constrained logistic regression as well as baseline and fairness constrianed support vector machine. For paper A7, we quantified the discrimination aspect of each feature by computing Shapley coefficients and the features were selected using FFS algorithm. Logistic regression and support vector machine models were then implemented using these pre-selected features. As a result, the FFS models with logistic regression were found to outperform other models, with accuracy 61.80% and P-rule 65.54%. 
 	
 
 **Contribution statement**: [default] All team members contributed equally in all stages of this project. All team members approve our work presented in this GitHub repository including this contributions statement. 

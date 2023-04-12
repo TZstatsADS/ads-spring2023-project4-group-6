@@ -146,12 +146,11 @@ w: the learned weight vector for the classifier.
 def compute_cross_validation_error(x_all, y_all, x_control_all, num_folds, loss_function, apply_fairness_constraints, apply_accuracy_constraint, sep_constraint, sensitive_attrs, sensitive_attrs_to_cov_thresh_arr, gamma=None):
 
 
-   """
-Calculates the cross-validation error for a classifier under different fairness constraints. This function serves as a wrapper for "train_model(...)", and all inputs, except for num_folds, are the same. Refer to train_model(...) for more details.
+    """
+    Calculates the cross-validation error for a classifier under different fairness constraints. This function serves as a wrapper for "train_model(...)", and all inputs, except for num_folds, are the same. Refer to train_model(...) for more details.
 
-Returns lists of train/test accuracy (with each list containing values for all folds), the proportions of various sensitive groups in the positive class (for train and test sets), and the covariance between the sensitive feature and the distance from the decision boundary (for both train and test folds).
-"""
-
+    Returns lists of train/test accuracy (with each list containing values for all folds), the proportions of various sensitive groups in the positive class (for train and test sets), and the covariance between the sensitive feature and the distance from the decision boundary (for both train and test folds).
+    """
     train_folds = []
     test_folds = []
     n_samples = len(y_all)
@@ -325,10 +324,10 @@ def get_one_hot_encoding(in_arr):
 def check_accuracy(model, x_train, y_train, x_test, y_test, y_train_predicted, y_test_predicted):
 
 
-   """
+    """
 Returns the train/test accuracy of the model. 
 You can either pass the model (w) or provide the predicted labels (y_predicted).
-"""
+    """
     if model is not None and y_test_predicted is not None:
         print("Either the model (w) or the predicted labels should be None")
         raise Exception("Either the model (w) or the predicted labels should be None")
@@ -354,7 +353,7 @@ def test_sensitive_attr_constraint_cov(model, x_arr, y_arr_dist_boundary, x_cont
 Calculates the covariance between the sensitive attribute value and the distance from the decision boundary. If the model is None, it is assumed that y_arr_dist_boundary contains the distance from the decision boundary. If the model is not None, a dot product of the model and x_arr is computed. For the case of SVM, the distance from the boundary is passed because the intercept is internalized for the class, and the distance is calculated using the project function.
 
 This function returns -1 if the constraint specified by the thresh parameter is not satisfied; otherwise, it returns +1. If the return value is greater than or equal to 0, the constraint is satisfied.
- """
+    """
 
     
 

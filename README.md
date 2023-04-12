@@ -22,7 +22,6 @@ Term: Spring 2023
 + **Outcomes summary**: 
 
   <img src="figs/results_table.png" width="400">
-  
   <img src="figs/results.png" width="500">
 
 + **Employed technologies**: Python was employed for model development, including logistic regression (LR), support vector machines (SVM), constrained logistic regression (C-LR), constrained support vector machines (C-SVM), and fairness-aware feature selection (FFS).

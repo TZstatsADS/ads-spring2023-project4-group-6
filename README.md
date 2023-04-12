@@ -28,7 +28,7 @@ Term: Spring 2023
 
 **Contribution statement**: [default] All team members contributed equally in all stages of this project. All team members approve our work presented in this GitHub repository including this contributions statement. 
 
-Xinming Pan, Yixun Xu, and Han Wang works on algorithms from paper A7. Namira Suniaprita, Linda Lin, and Tianxiao He works on algorithms from paper A2. Namira Suniaprita preprocessed the data and implemented the constrained logistic regression. Linda Lin implemented the constrained SVM. Tianxiao He combined the code in main.ipynb, evaluated all model's performance and performed data visualization. Han Wang wrote the structure of main.ipynb, preprocessed the data, implemented the baseline models, and did the presentation.
+Xinming Pan, Yixun Xu, and Han Wang works on algorithms from paper A7. Namira Suniaprita, Linda Lin, and Tianxiao He works on algorithms from paper A2. Namira Suniaprita preprocessed the data and implemented the constrained logistic regression (C-LR). Linda Lin implemented the constrained SVM. Tianxiao He combined the code in main.ipynb, evaluated all model's performance and performed data visualization. Han Wang wrote the structure of main.ipynb, preprocessed the data, implemented the baseline models, and did the presentation.
 
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
 
